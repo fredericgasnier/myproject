@@ -24,10 +24,11 @@ public class HelloServlet extends HttpServlet {
 		writer.println("<!DOCTYPE html>\r\n" + 
 				"<html>\r\n" + 
 				"<head>\r\n" + 
-				"<meta charset=\"utf-8\">\r\n" + 
+				"<meta charset=\"ISO-8859-1\">\r\n" + 
 				"<title>dans la servlet</title>\r\n" + 
 				"</head>\r\n" + 
-				"<body>");
+				"<body>\r\n" +
+				"<p>salut ça va</p>");
 		writer.println("<h1>Hello " + yourName + "</h1>");
 		writer.println("<p> Salut " + yourName + ", ça va ?</p>");
 		String fred = getServletInfo();
