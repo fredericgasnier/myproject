@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
 		String yourName = request.getParameter("yourName");
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + yourName + "</h1>");
-		writer.println("<p> Salut " + yourName + ", ça v ?</p>");
+		writer.println("<p> Salut " + yourName + ", ca va ?</p>");
 		String fred = getServletInfo();
 		writer.println("<p>" + fred + "</p>");
 		writer.close();
