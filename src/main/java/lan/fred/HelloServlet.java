@@ -29,7 +29,7 @@ public class HelloServlet extends HttpServlet {
 				"</head>\r\n" + 
 				"<body>");
 		writer.println("<h1>Hello " + yourName + "</h1>");
-		writer.println("<p> Salut " + yourName + ", ca va ?</p>");
+		writer.println("<p> Salut " + yourName + ", ça va ?</p>");
 		String fred = getServletInfo();
 		writer.println("<p>" + fred + "</p>");
 		writer.println("</body>"
