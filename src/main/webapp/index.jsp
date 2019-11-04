@@ -9,7 +9,7 @@
 <body>
 	<h1>Hello JSP and Servlet!</h1>
 	<form action="fredo" method="post">
-		Enter your ç name: <input type="text" name="yourName" size="20">
+		Enter your name: <input type="text" name="yourName" size="20">
 		<input type="submit" value="Call Servlet" />
 	</form>
 </body>
