@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
 		writer.println("<!DOCTYPE html>\r\n" + 
 				"<html>\r\n" + 
 				"<head>\r\n" + 
-				"<meta charset=\"ISO-8859-1\">\r\n" + 
+				"<meta charset=\"utf-8\">\r\n" + 
 				"<title>dans la servlet</title>\r\n" + 
 				"</head>\r\n" + 
 				"<body>");
